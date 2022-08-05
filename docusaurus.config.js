@@ -35,19 +35,8 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/viva-la-vita/viva-la-vita.github.io/',
         },
         blog: false,
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -67,15 +56,10 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'about/guideline',
+            docId: 'introduction/manifesto',
             position: 'left',
             label: '文档',
           },
-          // {
-          //   to: '/blog',
-          //   label: 'Blog',
-          //   position: 'left'
-          // },
           {
             href: 'https://wiki.viva-la-vita.org',
             label: '知识库',

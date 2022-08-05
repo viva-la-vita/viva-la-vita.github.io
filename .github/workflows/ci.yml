@@ -1,4 +1,4 @@
-name: Gatsby Publish
+name: Docusaurus Publish
 
 on:
   schedule:
@@ -22,10 +22,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      # - name: Create env file
-      #   run: echo STRAPI_TOKEN=${{ secrets.STRAPI_TOKEN }} > .env
+      - name: Create env file
+        run: echo STRAPI_TOKEN=${{ secrets.STRAPI_TOKEN }} > .env
       - name: Build site
-        run: npm ci && npm run build
+        run: npm ci && npm run api && npm run build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
