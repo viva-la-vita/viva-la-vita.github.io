@@ -27,6 +27,58 @@ const config = {
     locales: ['zh-Hans'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(255, 136, 136)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/logo.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/logo.svg',
+            color: 'rgb(255, 136, 136)',
+          },
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
