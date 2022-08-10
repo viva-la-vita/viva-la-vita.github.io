@@ -108,9 +108,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'introduction/manifesto',
+            docId: 'introduction/index',
             position: 'left',
-            label: '文档',
+            label: '关于',
+          },
+          {
+            type: 'doc',
+            docId: 'development/index',
+            position: 'left',
+            label: '开发',
           },
           {
             href: 'https://wiki.viva-la-vita.org',
@@ -125,6 +131,11 @@ const config = {
           {
             href: 'https://github.com/viva-la-vita',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://afdian.net/@vivalavita',
+            label: '爱发电',
             position: 'right',
           },
         ],
@@ -172,7 +183,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `CC-BY-SA 4.0 © ${new Date().getFullYear()} 生如夏花开发者`,
+        copyright: `CC-BY-SA 4.0 © 2019 - ${new Date().getFullYear()} 生如夏花开发者`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -5,6 +5,12 @@ require('dotenv').config({
   path: `.env`,
 });
 
+const preprocess = (article, dev) => {
+  const yaml = `---\ntitle: ${article.title}\nsidebar_position: ${article.order + dev}\n---\n`;
+  const body = article.related.content.replaceAll(/^(#+)/gm, '#$1');
+  return `${yaml}\n${body}`;
+}
+
 
 (async () => {
   const { data } = await axios.get(`/navigation/render/2`, {
@@ -19,18 +25,13 @@ require('dotenv').config({
 
   for (const series of data) {
     fs.mkdirSync(`docs${series.path}`, { recursive: true });
-    fs.writeFileSync(`docs${series.path}/_category_.json`, JSON.stringify({
-      label: series.title,
-      position: series.order,
-      link: {
-        type: "generated-index"
+    fs.writeFileSync(`docs${series.path}/index.md`, preprocess(series, 0));
+    for (const section of series.items) {
+      fs.mkdirSync(`docs${section.path}`, { recursive: true });
+      fs.writeFileSync(`docs${section.path}/index.md`, preprocess(section, 1));
+      for (const article of section.items) {
+        fs.writeFileSync(`docs${article.path}.md`, preprocess(article, 0));
       }
-    }));
-
-    for (const article of series.items) {
-      const yaml = `---\ntitle: ${article.title}\nsidebar_position: ${article.order}\n---\n`;
-      const body = article.related.content.replaceAll(/^(#+)/gm, '#$1');
-      fs.writeFileSync(`docs${article.path}.md`, `${yaml}\n${body}`);
     }
   }
 })();
