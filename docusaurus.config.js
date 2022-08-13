@@ -41,7 +41,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/logo.png',
+            href: '/icon-512.png',
           },
           {
             tagName: 'link',
@@ -66,13 +66,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/logo.png',
-          },
-          {
-            tagName: 'link',
-            rel: 'mask-icon',
-            href: '/logo.svg',
-            color: 'rgb(255, 136, 136)',
+            href: '/icon-512.png',
           },
         ],
       },
@@ -102,8 +96,10 @@ const config = {
       navbar: {
         title: '生如夏花',
         logo: {
-          alt: 'My Site Logo',
-          src: 'logo.svg',
+          alt: '生如夏花',
+          src: 'favicon.ico',
+          width: 32,
+          height: 32,
         },
         items: [
           {
