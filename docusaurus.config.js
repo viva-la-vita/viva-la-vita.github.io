@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const fs = require('fs');
+const meta = JSON.parse(fs.readFileSync('meta.json', { encoding: 'utf-8' }));
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '生如夏花',
@@ -41,7 +44,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/icon-512.png',
+            href: '/apple-icon-180.png',
           },
           {
             tagName: 'link',
@@ -66,9 +69,9 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/icon-512.png',
+            href: '/apple-icon-180.png',
           },
-        ],
+        ].concat(meta),
       },
     ],
   ],

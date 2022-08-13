@@ -23,6 +23,8 @@ jobs:
         run: echo STRAPI_TOKEN=${{ secrets.STRAPI_TOKEN }} > .env
       - name: Fetch content
         run: npm run api
+      - name: Generate PWA assets
+        run: npm run pwa
       - name: Build website
         run: npm run build
       - name: Deploy to GitHub Pages
