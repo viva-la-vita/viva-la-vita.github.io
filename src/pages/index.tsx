@@ -48,6 +48,12 @@ function HomepageAfdian() {
         爱发电主页
       </Link>
     </div>
+    <p>
+      感谢以下「生如夏花点亮者」们对社区的持续支持！
+    </p>
+    <ul>
+      { ["克里斯洪", "prophecy", "SL", "hankyang", "帅气小饼干", "庭鹭", "可松д", "爱发电用户_jXTp", "q160521", "fengz", "爱发电用户_3rRK", "白凛", "milesian", "15139592351", "listen 1", "son and me", "1518", "傲娇的香菜", "七海灯子", "帅气小饼干", "windSLP"].map(x => <li>{x}</li>)}
+    </ul>
   </div>
 }
 
