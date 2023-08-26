@@ -57,14 +57,7 @@ const config = {
         }
       }),
     ],
-    '@docusaurus/plugin-sitemap',
-    [
-      '@docusaurus/plugin-google-gtag',
-      /** @type {import('@docusaurus/plugin-google-gtag').Options} */
-      ({
-        trackingID: 'G-9VRE8Q9M2G'
-      })
-    ]
+    '@docusaurus/plugin-sitemap'
   ],
 
   themes: [
