@@ -1,0 +1,98 @@
+[
+  {
+    "name": "general",
+    "items": ["theory", "levels", "development", "prolongation", "play"]
+  },
+  {
+    "name": "nipple",
+    "items": [
+      {
+        "name": "principle",
+        "items": ["myths"]
+      },
+      {
+        "name": "development",
+        "items": [
+          "risk",
+          "hand",
+          "acupuncture",
+          "compensation",
+          "acceleration",
+          "level"
+        ]
+      },
+      {
+        "name": "masturbation",
+        "items": ["preparation", "technique", "pleasure", "orgasm", "toy"]
+      },
+      {
+        "name": "appendix",
+        "items": ["faq"]
+      }
+    ]
+  },
+  {
+    "name": "prostate",
+    "items": [
+      {
+        "name": "anal",
+        "items": [
+          "principle",
+          "step",
+          "safety",
+          "preparation",
+          "warmup",
+          "toys",
+          "advanced"
+        ]
+      },
+      {
+        "name": "introduction",
+        "items": ["procedure", "principle", "orgasm", "advanced"]
+      },
+      {
+        "name": "appendix",
+        "items": [
+          "misconceptions",
+          "faq",
+          "glossary",
+          "women",
+          "health",
+          "history"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "penis",
+    "items": ["basic", "prostate", "testicle", "masturbator", "vagina"]
+  },
+  {
+    "name": "hypnosis",
+    "items": [
+      "introduction",
+      "theory",
+      {
+        "name": "audio",
+        "items": ["faq", "mental-state", "map", "tricks"]
+      }
+    ]
+  },
+  {
+    "name": "squirting",
+    "items": [
+      {
+        "name": "definition",
+        "items": ["possibility"]
+      },
+      "preparation",
+      "connnection",
+      {
+        "name": "masturbateANDorgasm",
+        "items": ["clitoris", "nipple"]
+      },
+      "toys",
+      "conclusion"
+    ]
+  }
+]
