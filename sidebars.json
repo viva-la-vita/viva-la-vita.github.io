@@ -1,33 +1,103 @@
 [
   {
     "name": "general",
-    "items": ["theory", "levels", "development", "prolongation", "play"]
+    "items": [
+      {
+        "name": "theory",
+        "items": []
+      },
+      {
+        "name": "levels",
+        "items": []
+      },
+      {
+        "name": "development",
+        "items": []
+      },
+      {
+        "name": "prolongation",
+        "items": []
+      },
+      {
+        "name": "play",
+        "items": []
+      }
+    ]
   },
   {
     "name": "nipple",
     "items": [
       {
         "name": "principle",
-        "items": ["myths"]
+        "items": [
+          {
+            "name": "myths",
+            "items": []
+          }
+        ]
       },
       {
         "name": "development",
         "items": [
-          "risk",
-          "hand",
-          "acupuncture",
-          "compensation",
-          "acceleration",
-          "level"
+          {
+            "name": "risk",
+            "items": []
+          },
+          {
+            "name": "hand",
+            "items": []
+          },
+          {
+            "name": "acupuncture",
+            "items": []
+          },
+          {
+            "name": "compensation",
+            "items": []
+          },
+          {
+            "name": "acceleration",
+            "items": []
+          },
+          {
+            "name": "level",
+            "items": []
+          }
         ]
       },
       {
         "name": "masturbation",
-        "items": ["preparation", "technique", "pleasure", "orgasm", "toy"]
+        "items": [
+          {
+            "name": "preparation",
+            "items": []
+          },
+          {
+            "name": "technique",
+            "items": []
+          },
+          {
+            "name": "pleasure",
+            "items": []
+          },
+          {
+            "name": "orgasm",
+            "items": []
+          },
+          {
+            "name": "toy",
+            "items": []
+          }
+        ]
       },
       {
         "name": "appendix",
-        "items": ["faq"]
+        "items": [
+          {
+            "name": "faq",
+            "items": []
+          }
+        ]
       }
     ]
   },
@@ -37,44 +107,144 @@
       {
         "name": "anal",
         "items": [
-          "principle",
-          "step",
-          "safety",
-          "preparation",
-          "warmup",
-          "toys",
-          "advanced"
+          {
+            "name": "principle",
+            "items": []
+          },
+          {
+            "name": "step",
+            "items": []
+          },
+          {
+            "name": "safety",
+            "items": []
+          },
+          {
+            "name": "preparation",
+            "items": []
+          },
+          {
+            "name": "warmup",
+            "items": []
+          },
+          {
+            "name": "toys",
+            "items": []
+          },
+          {
+            "name": "advanced",
+            "items": []
+          }
         ]
       },
       {
         "name": "introduction",
-        "items": ["procedure", "principle", "orgasm", "advanced"]
+        "items": [
+          {
+            "name": "procedure",
+            "items": []
+          },
+          {
+            "name": "principle",
+            "items": []
+          },
+          {
+            "name": "orgasm",
+            "items": []
+          },
+          {
+            "name": "advanced",
+            "items": []
+          }
+        ]
       },
       {
         "name": "appendix",
         "items": [
-          "misconceptions",
-          "faq",
-          "glossary",
-          "women",
-          "health",
-          "history"
+          {
+            "name": "misconceptions",
+            "items": []
+          },
+          {
+            "name": "faq",
+            "items": []
+          },
+          {
+            "name": "glossary",
+            "items": []
+          },
+          {
+            "name": "women",
+            "items": []
+          },
+          {
+            "name": "health",
+            "items": []
+          },
+          {
+            "name": "history",
+            "items": []
+          }
         ]
       }
     ]
   },
   {
     "name": "penis",
-    "items": ["basic", "prostate", "testicle", "masturbator", "vagina"]
+    "items": [
+      {
+        "name": "basic",
+        "items": []
+      },
+      {
+        "name": "prostate",
+        "items": []
+      },
+      {
+        "name": "testicle",
+        "items": []
+      },
+      {
+        "name": "masturbator",
+        "items": []
+      },
+      {
+        "name": "vagina",
+        "items": []
+      }
+    ]
   },
   {
     "name": "hypnosis",
     "items": [
-      "introduction",
-      "theory",
+      {
+        "name": "introduction",
+        "items": []
+      },
+      {
+        "name": "theory",
+        "items": []
+      },
       {
         "name": "audio",
-        "items": ["faq", "mental-state", "map", "tricks"]
+        "items": [
+          {
+            "name": "faq",
+            "items": []
+          },
+          {
+            "name": "mental-state",
+            "items": []
+          },
+          {
+            "name": "map",
+            "items": []
+          },
+          {
+            "name": "tricks",
+            "items": []
+          }
+        ]
       }
     ]
   },
@@ -83,16 +253,42 @@
     "items": [
       {
         "name": "definition",
-        "items": ["possibility"]
+        "items": [
+          {
+            "name": "possibility",
+            "items": []
+          }
+        ]
       },
-      "preparation",
-      "connnection",
+      {
+        "name": "preparation",
+        "items": []
+      },
+      {
+        "name": "connnection",
+        "items": []
+      },
       {
         "name": "masturbateANDorgasm",
-        "items": ["clitoris", "nipple"]
+        "items": [
+          {
+            "name": "clitoris",
+            "items": []
+          },
+          {
+            "name": "nipple",
+            "items": []
+          }
+        ]
       },
-      "toys",
-      "conclusion"
+      {
+        "name": "toys",
+        "items": []
+      },
+      {
+        "name": "conclusion",
+        "items": []
+      }
     ]
   }
 ]
