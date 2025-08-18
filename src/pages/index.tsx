@@ -43,7 +43,7 @@ function HomepageAfdian() {
     <div className={styles.buttons}>
       <Link
         className="button button--primary button--lg"
-        to="https://afdian.net/@vivalavita"
+        to="https://afdian.com/@vivalavita"
         style={{margin: "1rem"}}>
         爱发电主页
       </Link>
