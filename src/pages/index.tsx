@@ -37,23 +37,28 @@ function HomepageHeader() {
 function HomepageAfdian() {
   return <div className="container" style={{padding: "2rem"}}>
     <p>
-      生如夏花社区的运营离不开域名、服务器和其他技术基础设施的购买与维护。为了让生如夏花能够持续地为您提供免费的内容及交流环境，您可以选择在爱发电平台上赞助我们，包括一次性赞助和按月赞助两种形式。
-      您的赞助将有 94% 被我们收到，剩余 6% 用于爱发电平台本身的维护；我们收到的部分将全部用于支付运营成本。
+      生如夏花社区的运营离不开域名、服务器和其他技术基础设施的购买与维护。为了让生如夏花能够持续地为您提供免费的内容及交流环境，您可以选择赞助我们。
+      我们收到的部分将100%全部用于支付网站开发和社区维护。（由于爱发电等平台，本身运营不善，而且资金限制更加严格。但是还没有找到比较合适的微信/支付宝捐赠方式。）
     </p>
-    <div className={styles.buttons}>
+    {/* <div className={styles.buttons}>
       <Link
         className="button button--primary button--lg"
         to="https://afdian.com/@vivalavita"
         style={{margin: "1rem"}}>
         爱发电主页
       </Link>
-    </div>
+    </div> */}
+
     <p>
-      感谢以下「生如夏花点亮者」们对社区的持续支持！
+       ETH（及EVM兼容链，包括Polygon、BNB Chain 、Arbitrum、Avalanche、Base、Optimism，可以接收ETH、USDT、USDC等）地址：0x6Bb139411f0c159c1f87A497e092101A1faa7769
+
+       Solana：8bUaGL8K9tKgrEky2TRPRAyLAXMiCiJMVTNQpicrmika
+
+       Tron（只能接收TRX 或 TRC-20 USDT/USDC，不能用于ETH）：TLdWZ1GahfPQ9tozxX6z2EoHicc25gQu97
     </p>
-    <ul>
+    {/* <ul>
       { ["克里斯洪", "prophecy", "SL", "hankyang", "帅气小饼干", "庭鹭", "可松д", "爱发电用户_jXTp", "q160521", "fengz", "爱发电用户_3rRK", "白凛", "milesian", "15139592351", "listen 1", "son and me", "1518", "傲娇的香菜", "七海灯子", "帅气小饼干", "windSLP"].map(x => <li>{x}</li>)}
-    </ul>
+    </ul> */}
   </div>
 }
 
