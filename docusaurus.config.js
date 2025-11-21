@@ -32,33 +32,70 @@ const config = {
         downloader: require('viva-la-vita').downloadMeta,
       }),
     ],
+    // [
+    //   'docusaurus-plugin-pwa-generator',
+    //   /** @type {import('docusaurus-plugin-pwa-generator').Options} */
+    //   ({
+    //     debug: true,
+    //     offlineModeActivationStrategies: [
+    //       'appInstalled',
+    //       'standalone',
+    //       'queryString',
+    //     ],
+    //     partialManifest: {
+    //       "name": "生如夏花知识库",
+    //       "short_name": "生如夏花知识库",
+    //       "theme_color": "#ff7777",
+    //       "background_color": "#424242",
+    //       "display": "standalone",
+    //       "scope": "./",
+    //       "start_url": "./index.html"
+    //     },
+    //     generatorInput: {
+    //       source: './static/favicon.ico',
+    //       options: { log: false,
+    //         scrape: false
+    //        }
+    //     }
+    //   }),
     [
-      'docusaurus-plugin-pwa-generator',
-      /** @type {import('docusaurus-plugin-pwa-generator').Options} */
-      ({
+      '@docusaurus/plugin-pwa',
+      {
         debug: true,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
           'queryString',
         ],
-        partialManifest: {
-          "name": "生如夏花知识库",
-          "short_name": "生如夏花知识库",
-          "theme_color": "#ff7777",
-          "background_color": "#424242",
-          "display": "standalone",
-          "scope": "./",
-          "start_url": "./index.html"
-        },
-        generatorInput: {
-          source: './static/favicon.ico',
-          options: { log: false,
-            scrape: false
-           }
-        }
-      }),
-    ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/favicon.ico', // 暂时指向现有的图标
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // 自动生成 manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#ff7777',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#424242',
+          },
+        ],
+      },
+    ],    
     '@docusaurus/plugin-sitemap'
   ],
 
