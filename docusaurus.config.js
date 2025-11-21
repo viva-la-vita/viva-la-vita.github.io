@@ -53,7 +53,9 @@ const config = {
         },
         generatorInput: {
           source: './static/favicon.ico',
-          options: { log: false }
+          options: { log: false,
+            scrape: false
+           }
         }
       }),
     ],
@@ -83,7 +85,7 @@ const config = {
         },
         items: [
           ...[['关于', 'introduction'], ['开发', 'development']].map(([ label, sidebarId ]) => ({ type: 'docSidebar', position: 'left', label, sidebarId })),
-          ...[['知识库', 'https://wiki.viva-la-vita.org'], ['论坛', 'https://bbs.viva-la-vita.org'], ['GitHub', 'https://github.com/viva-la-vita'], ['爱发电', 'https://afdian.com/@vivalavita']].map(([ label, href ]) => ({ position: 'right', label, href }))
+          ...[['知识库', 'https://wiki.viva-la-vita.org'], ['论坛', 'https://bbs.viva-la-vita.org'], ['GitHub', 'https://github.com/viva-la-vita'].map(([ label, href ]) => ({ position: 'right', label, href }))
         ],
       },
       footer: {
