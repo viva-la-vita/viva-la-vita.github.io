@@ -50,10 +50,11 @@ function HomepageAfdian() {
     </div> */}
 
     <p>
-       ETH（及EVM兼容链，包括Polygon、BNB Chain 、Arbitrum、Avalanche、Base、Optimism，可以接收ETH、USDT、USDC等）地址：0x6Bb139411f0c159c1f87A497e092101A1faa7769
-
+       ETH（及EVM兼容链，包括Polygon、BNB Chain 、Arbitrum、Avalanche、Base、Optimism，可以接收ETH、USDT、USDC等）<br />
+       地址：0x6Bb139411f0c159c1f87A497e092101A1faa7769
+       <br /><br />
        Solana：8bUaGL8K9tKgrEky2TRPRAyLAXMiCiJMVTNQpicrmika
-
+       <br /><br />
        Tron（只能接收TRX 或 TRC-20 USDT/USDC，不能用于ETH）：TLdWZ1GahfPQ9tozxX6z2EoHicc25gQu97
     </p>
     {/* <ul>
