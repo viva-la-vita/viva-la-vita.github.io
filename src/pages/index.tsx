@@ -1,3 +1,7 @@
+/**
+ * src/pages/index.tsx
+ */
+
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
