@@ -20,7 +20,13 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
-
+  scripts: [
+    {
+      src: '//gc.zgo.at/count.js',
+      async: true,
+      'data-goatcounter': 'https://mainpage-viva-la-vita.goatcounter.com/count',
+    },
+  ],
   // 使用标准的 classic 预设，包含 docs, blog, theme, sitemap
   presets: [
     [
