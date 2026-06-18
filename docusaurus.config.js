@@ -91,7 +91,7 @@ const config = {
           },
           {href: 'https://wiki.viva-la-vita.org', label: '知识库', position: 'right'},
           {href: 'https://bbs.viva-la-vita.org', label: '论坛', position: 'right'},
-          {href: 'https://github.com/viva-la-vita', label: 'GitHub', position: 'right'},
+          // {href: 'https://github.com/viva-la-vita', label: 'GitHub', position: 'right'},
         ],
       },
       footer: {
