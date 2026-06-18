@@ -92,8 +92,8 @@ export default function Home(): JSX.Element {
       description="探索美好而新奇的性体验">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
-        <hr />
+        {/* <HomepageFeatures /> */}
+        {/* <hr /> */}
         <HomepageManifesto />
         <hr />
         <HomepageAfdian />
